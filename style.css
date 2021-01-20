@@ -33,9 +33,6 @@ div#game > div > div{
     padding: 6rem 1rem; 
 }
 
-div#game > div > div:hover{
-    opacity: 0;
-}
 
 div#game > div > span{
     opacity: 0;
