@@ -21,16 +21,21 @@ div#game > div {
     height: 250px;
     color: white;  
     position: relative;
+    opacity: 100%;
 }
 
 div#game > div:hover {
     background-color: red;
-    color:red;
-}
+    }
+
 
 div#game > div > div{
    text-align: center;
     padding: 6rem 1rem; 
+}
+
+div#game > div:hover > div{
+    opacity: 0;
 }
 
 
@@ -43,7 +48,7 @@ div#game > div > span{
 }
 
 div#game > div > span:hover{
+    transition:opacity 2s;
     opacity: 100%;
     color: white;
-
 }
